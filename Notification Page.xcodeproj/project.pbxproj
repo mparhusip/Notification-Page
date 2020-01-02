@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		314C6F442314EA50008ACF67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C6F432314EA50008ACF67 /* AppDelegate.swift */; };
-		314C6F462314EA50008ACF67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C6F452314EA50008ACF67 /* ViewController.swift */; };
+		314C6F462314EA50008ACF67 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C6F452314EA50008ACF67 /* NotificationViewController.swift */; };
 		314C6F492314EA50008ACF67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314C6F472314EA50008ACF67 /* Main.storyboard */; };
 		314C6F4B2314EA51008ACF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314C6F4A2314EA51008ACF67 /* Assets.xcassets */; };
 		314C6F4E2314EA51008ACF67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314C6F4C2314EA51008ACF67 /* LaunchScreen.storyboard */; };
+		314C6F562314EF10008ACF67 /* NotifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C6F552314EF10008ACF67 /* NotifCell.swift */; };
+		314C6F582314F06F008ACF67 /* notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C6F572314F06F008ACF67 /* notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		314C6F402314EA50008ACF67 /* Notification Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notification Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314C6F432314EA50008ACF67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		314C6F452314EA50008ACF67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		314C6F452314EA50008ACF67 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		314C6F482314EA50008ACF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		314C6F4A2314EA51008ACF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		314C6F4D2314EA51008ACF67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		314C6F4F2314EA51008ACF67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314C6F552314EF10008ACF67 /* NotifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifCell.swift; sourceTree = "<group>"; };
+		314C6F572314F06F008ACF67 /* notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				314C6F432314EA50008ACF67 /* AppDelegate.swift */,
-				314C6F452314EA50008ACF67 /* ViewController.swift */,
+				314C6F452314EA50008ACF67 /* NotificationViewController.swift */,
 				314C6F472314EA50008ACF67 /* Main.storyboard */,
 				314C6F4A2314EA51008ACF67 /* Assets.xcassets */,
 				314C6F4C2314EA51008ACF67 /* LaunchScreen.storyboard */,
 				314C6F4F2314EA51008ACF67 /* Info.plist */,
+				314C6F552314EF10008ACF67 /* NotifCell.swift */,
+				314C6F572314F06F008ACF67 /* notification.swift */,
 			);
 			path = "Notification Page";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314C6F462314EA50008ACF67 /* ViewController.swift in Sources */,
+				314C6F582314F06F008ACF67 /* notification.swift in Sources */,
+				314C6F562314EF10008ACF67 /* NotifCell.swift in Sources */,
+				314C6F462314EA50008ACF67 /* NotificationViewController.swift in Sources */,
 				314C6F442314EA50008ACF67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
